@@ -1,0 +1,58 @@
+/* Selektor znacznika */
+p {
+    color: orange;
+}
+
+
+/* Selektor id */
+#id_1 {
+    color: aqua;
+}
+
+
+/* Selektor klasy */
+.class_1 {
+    color: red;
+}
+
+
+/* Łączenie selektrów - przecinek "lub" */
+a, span, div {
+    color: green;
+}
+
+/* selektor bezpośredniego elementu potomnego */
+li>a {
+    color: yellow;    
+}
+
+/* Selektor elemetów potomnych */
+div a {
+    color: deeppink;    
+}
+
+/* Selektor bliskiego rodzeństwa */
+
+h2+h3 {
+    color: darkred;
+}
+
+/* selektor rodzenstwa */
+h4~p {
+    color: saddlebrown;
+}
+
+/* selektor wykluczający */
+ul>li:not(.last) {
+    color: coral;
+}
+
+/* selektor kolejnego elementu potomnego an+b n+1 2n-co drugi even/odd */
+ol>li:nth-child(2n){
+    color: aqua;
+}
+
+ul>ol:nth-child(even) {
+    color: darkslategray;
+}
+
